@@ -1,0 +1,19 @@
+/* 
+body background: #77c5ab;
+building background: #dadcd1;
+roof color: #e7e9db;
+above column color: #cbccc4;
+column color: #d0d2c7;
+entrance color: #7b7b7b;
+window color: #6f6f6f #7b7b7b;
+bushes color: #4d7076;
+*/
+
+body {
+    background-color: #77c5ab;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
