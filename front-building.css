@@ -1,0 +1,39 @@
+.front-building {
+  border: 2px solid brown;
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  height: 68vh;
+  position: absolute;
+  bottom: 24vh;
+}
+.american-flag {
+  border: 1px solid blue;
+  flex: 0 1 18%;
+  width: 20%;
+}
+.top-triangle {
+  flex: 0 1 15%;
+  width: 0px; /*41%*/
+  height: 0px;
+  border-bottom: solid 100px #e7e9db;
+  border-right: solid 100px blue;
+  border-left: solid 100px green;
+  border-top: solid 100px black;
+  z-index: 1;
+}
+
+.top-columns {
+  border: 1px solid black;
+  flex: 0 1 9%;
+  width: 100%;
+  position: relative;
+  bottom: 21%;
+  z-index: 1;
+}
+.columns-container {
+  border: 1px solid green;
+  flex: 0 1 40%;
+  width: 20vw;
+  z-index: 1;
+}

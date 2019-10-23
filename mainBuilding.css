@@ -1,51 +1,58 @@
+.main-building {
+  border: 2px solid orange;
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+}
 /* TOP BLOCK */
 .top-building-block {
-    border: 1px solid yellow;
-    flex: 0 1 63%;
-    height: 1vh;
+  border: 1px solid red;
+  flex: 0 1 10%;
+  width: 62vw;
 }
 
 /* BOTTOM BLOCK */
 .bottom-building-block {
-    border: 1px solid yellow;
-    margin: 0 auto;
-    flex: 0 1 63%;
-    width: 52vw;
-    position: relative;
-    top: 35vh;
+  border: 1px solid yellow;
+  flex: 0 1 10%;
+  width: 65vw;
 }
-/* MAIN BUILDING */
-.main-building {
-    flex: 0 1 60%;
-    width: 50vw;
-    margin: 35vh auto;
-    background-color:  #dadcd1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 3px solid grey;
+/* CENTRAL BUILDING */
+.central-building {
+  flex: 0 1 40%;
+  width: 60vw;
+  background-color: #dadcd1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px solid grey;
 }
 
-.left-window-block, .middle-window-block, .right-window-block {
-    border: 1px solid black;
-    flex: 0 1 30%;
-    height: 35vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1%;
+.left-window-block,
+.middle-window-block,
+.right-window-block {
+  border: 1px solid black;
+  flex: 0 1 30%;
+  height: 35vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
 }
 
 .window {
-    flex: 0 1 5%;
-    height: 15vh;
-    border:1px solid red;
+  flex: 0 1 5%;
+  height: 15vh;
+  border: 1px solid red;
 }
 
 .triangle {
-width: 0px;
+  width: 0px;
   height: 0px;
   border-bottom: solid 30px #6f6f6f;
   border-right: solid 30px #6f6f6f;
