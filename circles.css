@@ -1,0 +1,6 @@
+.circles-container {
+  border: 1px solid white;
+  flex: 0 1 10%;
+  width: 145vh;
+  display: flex;
+}
