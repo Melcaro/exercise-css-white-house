@@ -1,6 +1,92 @@
+/* BUSHES CONTAINER */
+
 .circles-container {
   border: 1px solid white;
-  flex: 0 1 10%;
-  width: 145vh;
+  width: 66%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 5vh;
+  bottom: 2%;
+}
+
+.circle {
+  background: #4d7076;
+  position: absolute;
+}
+
+.little-circle1,
+.little-circle2,
+.little-circle3,
+.little-circle4 {
+  width: 7vw;
+  height: 13vh;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.little-circle1 {
+  left: -7%;
+}
+
+.little-circle2 {
+  left: 33%;
+}
+
+.little-circle3 {
+  left: 58%;
+}
+
+.little-circle4 {
+  left: 96%;
+}
+
+.medium-circle1,
+.medium-circle2 {
+  width: 9vw;
+  height: 18vh;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.medium-circle1 {
+  left: 13%;
+}
+
+.medium-circle2 {
+  left: 50%;
+}
+
+.large-circle1,
+.large-circle2,
+.large-circle3 {
+  width: 12vw;
+  height: 23vh;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.large-circle1 {
+  left: 1%;
+}
+
+.large-circle3 {
+  left: 80%;
+}
+
+.big-circle1,
+.big-circle2 {
+  width: 13vw;
+  height: 27vh;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.big-circle1 {
+  left: 18%;
+}
+
+.big-circle2 {
+  left: 63%;
 }

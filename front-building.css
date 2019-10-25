@@ -1,23 +1,66 @@
+/* FRONT BUILDING CONTAINER */
 .front-building {
-  border: 2px solid brown;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 22vw;
-  height: 70vh;
+  height: 64%;
   position: absolute;
   bottom: 18%;
 }
+
+/* AMERICAN FLAG */
 .american-flag {
-  border: 1px solid blue;
-  flex: 0 1 18%;
   width: 20%;
-  position: relative;
-  bottom: 6%;
+  height: 19%;
+  position: absolute;
+  bottom: 86%;
+  right: 31%;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 3;
 }
+
+.white-pillar {
+  flex: 0 1 8%;
+  height: 100%;
+  background: #e7e9db;
+}
+
+.flag {
+  flex: 0 1 90%;
+  height: 43%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blue-box {
+  width: 42%;
+  height: 23%;
+  position: absolute;
+  bottom: 77%;
+  right: 50%;
+  z-index: 2;
+  background: blue;
+}
+
+.stripes {
+  flex: 0 1 100%;
+  height: 9%;
+}
+
+.red-stripe {
+  background: red;
+}
+
+.white-stripe {
+  background: white;
+}
+
+/* TOP TRIANGLE */
 .top-triangle {
-  flex: 0 1 15%;
+  flex: 0 1 25%;
   width: 0px;
   height: 0px;
   border-bottom: solid 130px #e7e9db;
@@ -25,35 +68,35 @@
   border-left: solid 200px transparent;
   border-top: solid 130px transparent;
   position: relative;
-  bottom: 51%;
+  bottom: 45%;
+  z-index: 2;
+}
+
+/* TOP COLUMNS */
+.top-columns {
+  background: #e7e9db;
+  border-top: 10px solid #cbccc4;
+  flex: 0 1 7%;
+  width: 100%;
+  position: relative;
+  bottom: 45.5%;
   z-index: 1;
 }
 
-.top-columns {
-  background: #e7e9db;
-  border-top: 10px solid #d0d2c7;
-  flex: 0 1 5%;
-  width: 100%;
-  position: relative;
-  bottom: 51%;
-  z-index: 1;
-}
+/* COLUMNS */
+
 .columns-container {
-  border: 1px solid green;
   position: absolute;
-  right: -1%;
-  top: 46%;
-  bottom: 0;
-  height: 42vh;
-  width: 22vw;
-  z-index: 1;
+  top: 48%;
+  height: 61%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   z-index: 1;
 }
 .circle-container {
   position: absolute;
-  right: -2%;
+  right: 5%;
   height: 5%;
   display: flex;
   justify-content: space-between;
@@ -61,22 +104,57 @@
 }
 
 .column {
-  border: 1px solid black;
-  flex: 0 1 11%;
+  flex: 0 1 8%;
   height: 100%;
   display: flex;
+  z-index: 3;
 }
 
 .circle-column {
-  background: brown;
-  flex: 0 1 5%;
-  height: 16px;
+  background: #cbccc4;
+  flex: 0 1 4%;
+  height: 13px;
   margin-left: 1%;
   border-radius: 50%;
+  position: relative;
+  bottom: 10%;
+  z-index: 4;
+}
+
+.circle-column1 {
+  left: 12%;
+}
+
+.circle-column2 {
+  left: 6%;
+}
+
+.circle-column3 {
+  left: 12%;
+}
+
+.circle-column4 {
+  left: 6%;
+}
+
+.circle-column5 {
+  left: 12%;
+}
+
+.circle-column6 {
+  left: 6%;
+}
+
+.circle-column7 {
+  left: 12%;
+}
+
+.circle-column8 {
+  left: 6%;
 }
 
 .corpse-column {
-  background: white;
+  background: #d0d2c7;
   flex: 0 1 90%;
   height: 100%;
 }
